@@ -182,7 +182,7 @@ define([
 
 
 
-      this.map.addLayers([this.farmacias, this.centrosEducativos, this.centrosSalud, this.guardiaCivil, this.baseAereaIncendios, this.bomberos, this.policia]);
+      //this.map.addLayers([this.farmacias, this.centrosEducativos, this.centrosSalud, this.guardiaCivil, this.baseAereaIncendios, this.bomberos, this.policia]);
 
       this.query = new Query();
       this.query.returnGeometry = true;
